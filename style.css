@@ -1,24 +1,72 @@
 @font-face {
     font-family: 'Roboto';
-    src: url('subset-Roboto-Regular.eot');
-    src: url('subset-Roboto-Regular.eot?#iefix') format('embedded-opentype'),
-        url('subset-Roboto-Regular.woff2') format('woff2'),
-        url('subset-Roboto-Regular.woff') format('woff'),
-        url('subset-Roboto-Regular.ttf') format('truetype'),
-        url('subset-Roboto-Regular.svg#Roboto-Regular') format('svg');
+    src: url('fonts/subset-Roboto-Regular.eot');
+    src: url('fonts/subset-Roboto-Regular.eot?#iefix') format('embedded-opentype'),
+        url('fonts/subset-Roboto-Regular.woff2') format('woff2'),
+        url('fonts/subset-Roboto-Regular.woff') format('woff'),
+        url('fonts/subset-Roboto-Regular.ttf') format('truetype'),
+        url('fonts/subset-Roboto-Regular.svg#Roboto-Regular') format('svg');
     font-weight: 400;
     font-display: swap;
 }
 
 @font-face {
     font-family: 'Roboto';
-    src: url('subset-Roboto-Medium.eot');
-    src: url('subset-Roboto-Medium.eot?#iefix') format('embedded-opentype'),
-        url('subset-Roboto-Medium.woff2') format('woff2'),
-        url('subset-Roboto-Medium.woff') format('woff'),
-        url('subset-Roboto-Medium.ttf') format('truetype'),
-        url('subset-Roboto-Medium.svg#Roboto-Medium') format('svg');
+    src: url('fonts/subset-Roboto-Medium.eot');
+    src: url('fonts/subset-Roboto-Medium.eot?#iefix') format('embedded-opentype'),
+        url('fonts/subset-Roboto-Medium.woff2') format('woff2'),
+        url('fonts/subset-Roboto-Medium.woff') format('woff'),
+        url('fonts/subset-Roboto-Medium.ttf') format('truetype'),
+        url('fonts/subset-Roboto-Medium.svg#Roboto-Medium') format('svg');
     font-weight: 500;
     font-display: swap;
+}
+
+.wrapper {
+    max-width: 1920px;
+    margin: 0 auto;
+}
+
+.header {
+    position: absolute;
+    width: 1920px;
+    height: 700px;
+    left: 0px;
+    top: 0px;
+    background: #EEEFF1;
+}
+
+.nav {
+    position: absolute;
+    width: 611px;
+    height: 18px;
+    left: 399px;
+    top: 79px;
+}
+
+.nav-link {
+    display: inline-block;
+    vertical-align: top;
+    margin-right: 42px;
+    font-family: 'Roboto';
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 18px;
+/* identical to box height, or 112% */
+    color: #000000;
+}
+
+.nav-link:last-child{
+    margin-right: 0;
+}
+
+#home {
+    font-family: 'Roboto';
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 18px;
+    /* identical to box height, or 112% */
+    /* Accent */
+    color: #34547A;
 }
 
