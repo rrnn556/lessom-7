@@ -54,6 +54,8 @@
     line-height: 18px;
 /* identical to box height, or 112% */
     color: #000000;
+    text-decoration: none;
+    margin-bottom: 160px;
 }
 
 .nav-link:last-child{
@@ -68,5 +70,36 @@
     /* identical to box height, or 112% */
     /* Accent */
     color: #34547A;
+}
+
+.design {
+    position: absolute;
+    width: 541px;
+    height: 60px;
+    left: 399px;
+    top: 257px;
+}
+
+.design-title {
+    font-family: 'Roboto';
+    font-weight: 500;
+    font-size: 48px;
+    line-height: 60px;
+    /* identical to box height, or 125% */
+    color: #000000;
+    margin-bottom: 45px;
+}
+
+.design-subtitle {
+    max-width: 540px;
+    font-family: 'Roboto';
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    /* or 162% */
+    display: flex;
+    align-items: center;
+    color: #727272;
+    margin-bottom: 54px;
 }
 
